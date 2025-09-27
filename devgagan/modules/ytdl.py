@@ -268,7 +268,7 @@ def progress_callback(done, total, user_id):
      
     completed_blocks = int(percent // 10)
     remaining_blocks = 10 - completed_blocks
-    progress_bar = "♦" * completed_blocks + "◇" * remaining_blocks
+    progress_bar = "◼️" * completed_blocks + "◻️" * remaining_blocks
  
      
     done_mb = done / (1024 * 1024)   
