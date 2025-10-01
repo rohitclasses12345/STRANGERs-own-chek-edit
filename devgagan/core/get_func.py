@@ -489,7 +489,7 @@ class SmartTelegramBot:
             if edit_msg:
                 await edit_msg.delete()
             
-            progress_message = await gf.send_message(user_id, "**__SpyLib ⚡ Uploading...__**")
+            progress_message = await gf.send_message(user_id, "**__STRANGER ⚡ Uploading...__**")
             html_caption = await self.caption_formatter.markdown_to_html(caption)
             
             # Upload file using fast_upload
@@ -648,9 +648,9 @@ class SmartTelegramBot:
                 return
             
             # Download file
-            edit_msg = await app.edit_message_text(sender, edit_id, "**📥 Downloading...**")
+            edit_msg = await app.edit_message_text(sender, edit_id, "**...STRANGER 📥 Downloader...**")
             
-            progress_args = ("╭──────────────╮\n│ **__Downloading...__**\n├────────", edit_msg, time.time())
+            progress_args = ("╭──────────────╮\n│ **_STRANGE_Downloading...__**\n├────────", edit_msg, time.time())
             file_path = await userbot.download_media(
                 msg, file_name=filename, progress=progress_bar, progress_args=progress_args
             )
