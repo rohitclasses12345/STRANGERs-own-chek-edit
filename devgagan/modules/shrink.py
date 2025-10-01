@@ -73,8 +73,8 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg"
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/Strangerboys24")
+        image_url = "https://i.ibb.co/HLNJR68s/x.jpg"
+        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/stangerboy")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/Strangerboys24")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
@@ -85,9 +85,15 @@ async def token_handler(client, message):
             msg.photo.file_id,
             caption=(
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "Welcome to STRANGER SRC BOT!.../n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
-                "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
+                "Welcome to [STRANGER SRC](https://i.ibb.co/PGkCBcMF/x.jpg) BOT!...\n\n"
+                "╭━━━━━━━━━━━━━ ❀° ━━━━╮\n"
+                "┣⪼•✅️ I can grab posts 🔒 from channels/groups where Forward is OFF 🚫\n"
+                "┣⪼•🎬 I can fetch Videos/Audio from YT ▶️\n"
+                "┣⪼•Insta 📸 & many more social hubs 🌐\n"
+                "┣⪼•✳️ Simply send the post link of a public channel.\n"
+                "┣⪼•For private channels, do /login.\n"
+                "┣⪼•Send /help to know more."
+                "╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
             ),
             reply_markup=keyboard
         )
