@@ -265,7 +265,7 @@ class FileOperations:
         """Process filename with user preferences"""
         delete_words = set(self.db.get_user_data(user_id, "delete_words", []))
         replacements = self.db.get_user_data(user_id, "replacement_words", {})
-        rename_tag = self.db.get_user_data(user_id, "rename_tag", "Team SPY")
+        rename_tag = self.db.get_user_data(user_id, "rename_tag", "『 STRANGER 』")
         
         path = Path(file_path)
         name = path.stem
