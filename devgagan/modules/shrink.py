@@ -107,16 +107,23 @@ async def token_handler(client, message):
         await message.reply_photo(
             msg.photo.file_id,
             caption=(
-                "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "Welcome to [STRANGER SRC](https://i.ibb.co/PGkCBcMF/x.jpg) BOT!...\n\n"
-                "╭━━━━━━━━━━━━━ ❀° ━━━━╮\n"
-                "┣⪼•✅️ I can grab posts 🔒 from channels/groups where Forward is OFF 🚫\n"
-                "┣⪼•🎬 I can fetch Videos/Audio from YT ▶️\n"
-                "┣⪼•Insta 📸 & many more social hubs 🌐\n"
-                "┣⪼•✳️ Simply send the post link of a public channel.\n"
-                "┣⪼•For private channels, do /login.\n"
-                "┣⪼•Send /help to know more."
-                "╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
+                "Hi 👋 Welcome to [STRANGER SRC](https://i.ibb.co/PGkCBcMF/x.jpg) BOT!...\n\n"
+                "░░░░░░░░░░░░░░░░░░░░░░\n"
+                "      👑 STRANGER SRC BOT 👑\n"
+                "░░░░░░░░░░░░░░░░░░░░░░\n\n"
+                "👋 Hello Explorer! Welcome to the Quito Edition 🚀\n\n"
+                "╔═════ ✦ FEATURES ✦ ═════╗\n"
+                "🔒 Crack 🔐 Forward-Locked Posts\n"
+                "🎬 HD Video / Audio Grabber (YT, TG)\n"
+                "📸 Insta & Social Media Extractor 🌍\n"
+                "⚡ Ultra-Fast Public Channel Grab\n"
+                "🔐 Private Channels → /login\n"
+                "📜 Full Guide → /help\n"
+                "╚═════════════════════════╝\n\n"
+                "💎 ✦ PREMIUM ZONE ✦ 💎\n"
+                "🚀 Turbo Speed | 📂 Bulk Grab | 🛡️ VIP Support\n"
+                "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                "✨ Step inside the STRANGER FAMILY 🔱\n"
             ),
             reply_markup=keyboard
         )
