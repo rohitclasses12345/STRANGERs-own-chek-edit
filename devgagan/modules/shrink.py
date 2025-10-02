@@ -73,9 +73,9 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg"
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/Strangerboys24")
-        premium = InlineKeyboardButton("Get Premium", url="https://t.me/Strangerboys24")   
+        image_url = "https://i.ibb.co/HLNJR68s/x.jpg"
+        join_button = InlineKeyboardButton("OWNER Channel", url="https://t.me/Strangerboys24")
+        premium = InlineKeyboardButton("Get Premium OWNER", url="https://t.me/Strangerboys24")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
             [premium]    
@@ -84,10 +84,23 @@ async def token_handler(client, message):
         await message.reply_photo(
             msg.photo.file_id,
             caption=(
-                "Hi 👋 Welcome, Wanna intro...?\n\n"
-                "Welcome to STRANGER SRC BOT!.../n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
-                "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more."
+                "Hi 👋 Welcome to [STRANGER SRC](https://i.ibb.co/HLNJR68s/x.jpg) BOT!...\n\n"
+                "░░░░░░░░░░░░░░░░░░░░░░\n"
+                "      👑 STRANGER SRC BOT 👑\n"
+                "░░░░░░░░░░░░░░░░░░░░░░\n\n"
+                "👋 Hello Explorer! Welcome to the Quito Edition 🚀\n\n"
+                "╔═════ ✦ FEATURES ✦ ═════╗\n"
+                "🔒 Crack 🔐 Forward-Locked Posts\n"
+                "🎬 HD Video / Audio Grabber (YT, TG)\n"
+                "📸 Insta & Social Media Extractor 🌍\n"
+                "⚡ Ultra-Fast Public Channel Grab\n"
+                "🔐 Private Channels → /login\n"
+                "📜 Full Guide → /help\n"
+                "╚═════════════════════════╝\n\n"
+                "💎 ✦ PREMIUM ZONE ✦ 💎\n"
+                "🚀 Turbo Speed | 📂 Bulk Grab | 🛡️ VIP Support\n"
+                "━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+                "✨ Step inside the STRANGER FAMILY 🔱\n"
             ),
             reply_markup=keyboard
         )
