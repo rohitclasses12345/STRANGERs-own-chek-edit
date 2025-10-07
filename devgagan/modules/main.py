@@ -130,7 +130,7 @@ async def initialize_userbot(user_id): # this ensure the single startup .. even 
     data = await db.get_data(user_id)
     if data and data.get("session"):
         try:
-            device = 'STRANGER BOYS Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 512GB Storage), 200MP Camera'# added gareebi text
+            device = 'STRANGER BOYS Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 512GB Storage), 200MP Camera'# added gareebi text
             userbot = Client(
                 "userbot",
                 api_id=API_ID,
